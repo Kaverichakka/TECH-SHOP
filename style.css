@@ -1,0 +1,327 @@
+.wholecontainer{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* background-image: url(https://tse1.mm.bing.net/th?id=OIP.-k4yA1vL-ssJuKkEIq0nPgHaEK&pid=Api&P=0&h=180);
+    background-repeat:no-repeat;
+    height: 3000px;
+    width: 90%; */
+    background-color: black
+}
+.container1{
+    display: flex;
+    justify-content: space-between; 
+}
+.side1{
+    left: 50px;
+    position: relative;
+} 
+.side2{
+    right: -10%;
+    position: relative; 
+    display: flex;
+     justify-content: space-evenly; 
+     gap: 1%; 
+    top: 20px;
+     padding: 20px; 
+    color: white;  
+   }
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    position: relative;
+    right:60px;
+}
+.subtext{
+    display: flex;
+    gap: 15px;
+}
+.text h5{
+    color: rgb(232, 232, 232);
+    font-size: 20px;
+
+}
+.image img{
+    height: 300px;
+    width: 300px;
+}
+.text h2{
+    color: white; 
+    font-size: 30px;
+    position: relative;
+    bottom: 25px;
+}
+.page2{
+    color: white;
+    text-align: center;
+}
+.container3{
+    height:200px ;
+    width:100% ;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.container3 p{
+    color: white;
+}
+.div1{
+  height: 150px;
+  width: 150px;
+  position: relative;
+  left: 1%;
+}
+.div2{
+    height: 150px;
+    width: 150px;
+}
+.div3{
+    height: 150px;
+    width: 150px;
+}
+.div4{
+    height: 150px;
+    width: 150px;
+}
+.div5{
+    height: 150px;
+    width: 150px;
+}
+.div2 p{
+    position: relative;
+    bottom: 3%;
+}
+.div3{
+    position: relative;
+    bottom: 10%;
+}
+.div4 p{
+    position: relative;
+    bottom:3% ;
+}
+.div1 img{
+    height: 80px;
+    width: 80px;
+}
+.div2 img{
+height:100px;
+width: 100px;
+}
+.div3 img{
+    height: 120px;
+    width: 120px;
+}
+.div4 img{
+    height: 100px;
+    width: 100px;
+}
+.div5 img{
+height:80px;
+width: 80px;
+}
+.page3{
+    color: white;
+    text-align: center;
+
+}
+.list{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 18px;
+}
+.container4{
+    height: 1400px;
+    width: 100%;
+}
+.row{
+    height: 450px;
+    width: 99%;
+    /* border: 1px solid white; */
+    margin:0.1%;
+    display: flex;
+}
+.subtext i{
+    color: white;
+}
+button{
+    background-color: red;
+    color: white;
+}
+
+.col{
+    height:420px ;
+    width: 100%;
+    position: relative;
+    bottom: 0.1%;
+    border: 1px solid grey;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+}
+.col img{
+    height: 150px;
+    width: 70%;
+    position: relative;
+    top: 1%;
+    left: 5%;
+}
+.subcol{
+    padding: 8%;
+}
+.subcol i{
+    color: red;
+}
+.subcol h4{
+    color: white;
+}
+.subcol p{
+    color: white;
+}
+.delivery i{
+    color: red;
+    top: 25%;
+    left: 45%;
+    position: relative;
+}
+.delivery pre{
+    color: white;
+    position: relative;
+    left: 20%;
+    bottom: 15%;
+}
+.delivery{
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+}
+.delivery p{
+    color: white;
+}
+.features{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+}
+.container5{
+    display: flex;
+    justify-content: space-between;
+}
+.one h4{
+color: white;
+left: 50px;
+position: relative;
+}
+.one h2{
+    color: white;
+}
+.one li{
+    color: rgb(207, 200, 200);
+    padding: 5px;
+    
+}
+.one pre{
+    color: rgb(202, 200, 200);
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10px;
+    padding: 5px;
+    }
+    #mail{
+        padding: 10px;
+        margin-bottom: 5px;
+        background-color: black;
+    }
+    .container6{
+        display: flex;
+        justify-content: space-between;
+    }
+    .finalicons{
+        color: white;
+        top:15px;
+        position: relative;
+        display: flex;
+        gap: 80%;
+        right: 20%;
+    }
+    .finalpara{
+        color: rgb(210, 203, 203);
+    }
+    .profile:hover{
+        border: 1px solid white;
+    }
+
+.tooltip{
+    visibility: hidden;
+    width: 260px;
+    height: 190px;
+    background-color: 2px solid white;
+    border-radius: 2px;
+    /* transform: translate(-265px,15px); */
+    align-items: center;
+    background-color: black;
+} 
+.search-container:hover.tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+.cart-container{
+    cursor: pointer;
+}
+.cart-container:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+.profile-container{
+    cursor: pointer;
+}
+.profile-container:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+@media  screen and (min-width:375px) and (max-width:425px){
+.side1{
+   left: 10px;
+   position: relative;
+    }
+.side2{
+    right: 80px;
+    position: relative;
+    }
+    .container1{
+        height: 300px;
+        width: 100%;
+        position: relative;
+    }
+    .image{
+        height: 100px;
+        width: 100px;
+    }
+    .container2{
+        position: relative;
+        bottom: 250px;
+        height: 400px;
+        left: 76px;
+    }
+    .text h5{
+        font-size: 15px;
+    }
+    .text h2{
+        font-size: 18px;
+    }
+    .image{
+        right: 170px;
+        position: relative;
+        height: 10px;
+        width: 90%;
+    }
+
+    }
+ 

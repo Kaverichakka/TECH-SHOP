@@ -1,0 +1,62 @@
+.wholecontainer{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    height: 600px;
+    width: 50%; 
+}
+h1{
+    color: white;
+    position: relative;
+}
+h1{
+    right: 150px;
+    position: relative;
+}
+p{
+    right: 100px;
+    position: relative;
+}
+input{
+    background-color: black;
+    color: white;
+}
+
+.text{
+    color: white;
+}
+.linecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    flex: 1;
+    height: 1px;
+    background-color: white;
+    color: white;
+}
+.text{
+    padding: 0 10px;
+    font-size: 18px;
+    color: rgb(220, 205, 205);
+}
+.container{
+    text-align: center;
+    margin: 15px;
+}
+input{
+    height: 50px;
+    width: 400px;
+}
+.signup{
+    height:40px;
+    width: 400px;
+    background-color: red;
+    color: white;
+}
+.class{
+    height: 50px;
+    width: 100px;
+}
