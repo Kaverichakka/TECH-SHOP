@@ -1,12 +1,13 @@
 .rightside{
     /* height: 500px; */
-    width: 50%;
+    width: 60%;
     background-color:rgba(0, 0, 0, 0.253);
 }
 .wholecontainer{
     background-color: rgb(26, 25, 25);
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 .text p{
     color: rgb(176, 172, 172);
@@ -31,9 +32,7 @@
     display: flex;
     gap: 5%;
 }
-hr{
-    color: grey;
-}
+
 i{
     color: white;
     margin-top: 20px;
@@ -52,13 +51,50 @@ i{
      gap:130%; 
     padding: 10%;
 }
+.div1{
+    right: 15px;
+    position: relative;
+}
+.div2{
+    right: 20px;
+    position: relative;
+}
+
+.div2 pre{
+    position: relative;
+    bottom:600px;
+
+}
+.div3{
+    right: 1px;
+    position: relative;
+}
+.div4 p{
+    right: 1px;
+    position: relative;
+}
+.price{
+    display: flex;
+    color: white;
+    gap: 130%;
+    padding: 10%;
+}
+.price pre{
+    bottom: 425px;
+    position: relative;
+    font-size: 16px;
+    color: rgb(210, 208, 208);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .price i{
     top:5px;
     position: relative;
 }
-.div pre{
+.price pre{
     bottom: 25px;
     position: relative;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 button{
     background-color: red;
@@ -70,4 +106,35 @@ button{
 .total{
     display: flex;
     gap: 150px;
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+}
+.form{
+    display: flex;
+    position: relative;
+    top: 100px; 
+    right: 140px;
+}
+.one{
+    background-color: rgb(76, 74, 74);
+    color: white;
+}
+.two{
+    background-color:black;
+    color: white;
+}
+.form button{
+    height: 40px;
+    width: 50px;
+}
+.forms{
+    display: flex;
+    position: relative;
+     top: 100px; 
+    right: 130px;
+}
+.forms button{
+    height: 40px;
+    width: 50px;
 }

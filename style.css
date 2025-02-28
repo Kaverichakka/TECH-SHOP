@@ -41,6 +41,8 @@
 .image img{
     height: 300px;
     width: 300px;
+    position: relative;
+    right: 100px;
 }
 .text h2{
     color: white; 
@@ -51,6 +53,8 @@
 .page2{
     color: white;
     text-align: center;
+    position: relative;
+    bottom: 50px;
 }
 .container3{
     height:200px ;
@@ -217,6 +221,12 @@ position: relative;
     padding: 5px;
     
 }
+
+.profilecontainer i{
+   position: relative;
+   left:300px;
+}
+
 .one pre{
     color: rgb(202, 200, 200);
 }
@@ -236,6 +246,33 @@ position: relative;
         display: flex;
         justify-content: space-between;
     }
+  
+    .profile-tooltip{
+        position: relative;
+        right:130px;
+        border:1px solid white;
+    
+        
+    }
+    .profile-tooltip hr{
+width: 215px;
+position: relative;
+left: 1px;
+top: 2px;
+    }
+.search-container i{
+    position: relative;
+    left: 360px;
+}
+.cart-container i{
+    position: relative;
+    left: 170px;
+}
+/* .profile-container i{
+    position: relative;
+    left: 410px;
+} */
+
     .finalicons{
         color: white;
         top:15px;
@@ -249,6 +286,14 @@ position: relative;
     }
     .profile:hover{
         border: 1px solid white;
+    }
+    .profile-tooltip button{
+        border: 1px solid grey;
+        background-color: black;
+        height: 33px;
+        width: 200px;
+        position: relative;
+        left: 15px;
     }
 
 .tooltip{
@@ -265,9 +310,9 @@ position: relative;
     visibility: visible;
     opacity: 1;
 }
-.cart-container{
+/* .cart-container{
     cursor: pointer;
-}
+} */
 .cart-container:hover .tooltip{
     visibility: visible;
     opacity: 1;
@@ -279,46 +324,7 @@ position: relative;
     visibility: visible;
     opacity: 1;
 }
-
-
-
-@media  screen and (min-width:375px) and (max-width:425px){
-.side1{
-   left: 10px;
-   position: relative;
-    }
-.side2{
-    right: 80px;
+.container2{
     position: relative;
-    }
-    .container1{
-        height: 300px;
-        width: 100%;
-        position: relative;
-    }
-    .image{
-        height: 100px;
-        width: 100px;
-    }
-    .container2{
-        position: relative;
-        bottom: 250px;
-        height: 400px;
-        left: 76px;
-    }
-    .text h5{
-        font-size: 15px;
-    }
-    .text h2{
-        font-size: 18px;
-    }
-    .image{
-        right: 170px;
-        position: relative;
-        height: 10px;
-        width: 90%;
-    }
-
-    }
-  
- 
+    bottom: 100px;
+}

@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     place-items: center;
-    height: 500px;
+    height: 700px;
     width: 50%; 
 }
 h1{
@@ -25,6 +25,8 @@ input{
 
 .text{
     color: white;
+    position:relative;
+    bottom: 40px;
 }
 .linecontainer{
     display: flex;
@@ -59,4 +61,10 @@ input{
 .class{
     height: 50px;
     width: 100px;
+}
+
+input{
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(151,151,151);
 }
