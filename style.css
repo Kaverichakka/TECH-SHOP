@@ -1,10 +1,6 @@
 .wholecontainer{
     overflow-x: hidden;
     overflow-y: hidden;
-    /* background-image: url(https://tse1.mm.bing.net/th?id=OIP.-k4yA1vL-ssJuKkEIq0nPgHaEK&pid=Api&P=0&h=180);
-    background-repeat:no-repeat;
-    height: 3000px;
-    width: 90%; */
     background-color: black
 }
 .container1{
@@ -324,4 +320,5 @@ position: relative;
     }
 
     }
+  
  
